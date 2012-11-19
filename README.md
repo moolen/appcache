@@ -1,4 +1,4 @@
-appcache
+application-cache-plugin
 ========
 
 Appcache Plugin (Wordpress)

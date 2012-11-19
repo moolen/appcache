@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: HTML5 Application Cache
-Plugin URI: none yet.
-Description: Creates a dynamically rendered application cache manifest and embeds it into your current template. Just activate the plugin and everything gets cached. for more details see the application cache's settings panel.
+Plugin Name: application cache plugin
+Plugin URI: https://github.com/moolen/appcache
+Description: Creates a dynamice application cache manifest. For more details see the application cache's settings panel.
 Version: v0.1
 Author: fwd.io
 Author URI: http://www.fwd.io
-License: MIT Licensed. Do what you want!
+License: GPLv2 or later.
 */
 if(empty($_GET['appcache_id'])){
 	/************************************************* 
