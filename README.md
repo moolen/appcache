@@ -13,8 +13,8 @@ add to your themes' header.php the appcache manifest:
 ..and remove the backslashes obviously.
 
 The file itselfs gets 2 GET parameters: 
-#1: ID of the post
-#2: referrer (which site or post is sending the request it?)
+1: ID of the post
+2: referrer (which site or post is sending the request it?)
 
 The file creates a appcache manifest based upon the parameters. 
 Example: ID is 354 and referrer is '/my-sub-page' .

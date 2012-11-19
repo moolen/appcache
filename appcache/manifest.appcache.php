@@ -109,7 +109,7 @@ if(empty($_GET['appcache_id'])){
 			<b>&nbsp;disable dynamic filecaching: &nbsp;</b>
 				<input type='checkbox' id='plugin_text_string' name='appcache_plugin[ddf4]'"; if($options['ddf4'] == 'true'){ echo' checked ';} echo"value='true'>
 			<br><br>";
-			echo "<h2>Notes for Developer / additional information</h2>
+			echo "<h2>additional information</h2>
 					<p>
 						If you want to debug the Application cache try the following:<br>
 						Use Google Chrome: CMD+ALT+J for debugger tool; go to the \"Console\"-Tab you can see the events and files triggered by the Application Cache.
